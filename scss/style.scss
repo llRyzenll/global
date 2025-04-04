@@ -151,7 +151,155 @@ body{
             gap: 5px;
         }
     }
-    .block-3{
-        
+    .block-3 {
+        width: 359px;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: start;
+        align-content: stretch;
+        justify-content: start;
+        gap: 42px;
+    }
+    .shapka{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .block-top{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+    .introvert{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 221px;
+        span{
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    .line-back1{
+        position: relative;
+        width: 358.99px;
+        height: 7.37px;
+        border-radius: 4.17px;
+        background: #eeeeeeFF;
+    }
+    .line-back1::before{
+        content: '';
+        position: absolute;
+        width: 168.01px;
+        height: 6.78px;
+        border-radius: 3.83px;
+        background: #ff4040FF;
+        top: 0;
+        left: 0;
+    }
+    .line-back2{
+        position: relative;
+        width: 358.99px;
+        height: 7.37px;
+        border-radius: 4.17px;
+        background: #eeeeeeFF;
+    }
+    .line-back2::before{
+        content: '';
+        position: absolute;
+        width: 208.5px;
+        height: 7px;
+        border-radius: 3.83px;
+        background: #ff4040FF;
+        top: 0;
+        left: 0;
+    }
+    .line-back3{
+        position: relative;
+        width: 358.99px;
+        height: 7.37px;
+        border-radius: 4.17px;
+        background: #eeeeeeFF;
+    }
+    .line-back3::before{
+        content: '';
+        position: absolute;
+        width: 116px;
+        height: 7px;
+        border-radius: 3.83px;
+        background: #ff4040FF;
+        top: 0.26px;
+        left: 0;
+    }
+    .line-back4{
+        position: relative;
+        width: 358.99px;
+        height: 7.37px;
+        border-radius: 4.17px;
+        background: #eeeeeeFF;
+    }
+    .line-back4::before{
+        content: '';
+        position: absolute;
+        width: 281px;
+        height: 7px;
+        border-radius: 3.83px;
+        background: #ff4040FF;
+        top: 0;
+        left: 0;
+    }
+    .line-back5{
+        position: relative;
+        width: 358.99px;
+        height: 7.37px;
+        border-radius: 4.17px;
+        background: #eeeeeeFF;
+    }
+    .line-back5::before{
+        content: '';
+        position: absolute;
+        width: 116px;
+        height: 7px;
+        border-radius: 3.83px;
+        background: #ff4040FF;
+        top: 0.26px;
+        left: 0;
+    }
+    .block-mid{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: start;
+        align-content: stretch;
+        justify-content: start;
+        gap: 12px;
+    }
+    .skill-all{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        font-size: 16;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 0.1;
+    }
+    .skill{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .block-bot{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .Apps{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: start;
+        align-content: stretch;
+        justify-content: start;
+        gap: 12px;
     }
 }
